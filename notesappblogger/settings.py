@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ah2bl&s75t#!smv-kev+0dgq1l(iu%!7726u)ns764ut8*j*3g
 DEBUG = True
 
 ALLOWED_HOSTS = ['notes.aanand.blog',
-
+                '3ff94048-8daa-4783-bc39-4a66b50b766a.id.repl.co',
                  ]
 
 
