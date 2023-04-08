@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['notes.aanand.blog',
                 '3ff94048-8daa-4783-bc39-4a66b50b766a.id.repl.co',
+                '127.0.0.1',
                  ]
 
 
@@ -57,7 +58,7 @@ ROOT_URLCONF = 'notesappblogger.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['notesappblogger/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

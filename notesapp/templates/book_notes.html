@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book_Notes</title>
+</head>
+<body>
+
+{%for notes in book_notes%}
+{{notes.notes_header}}
+{{notes.pub_date}}
+{{notes.notes_type}}
+{{notes.notes_body}}
+
+{%endfor%}
+
+
+
+</body>
+</html>
